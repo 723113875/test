@@ -1,0 +1,173 @@
+{
+  "uid" : "7a3c205017b2a19b",
+  "name" : "test_01_CodePayProcess[13000000000-8888]",
+  "fullName" : "Runner.test_case.Test_Class#test_01_CodePayProcess",
+  "historyId" : "aa90340c57c513625c9b3f743c5397e4",
+  "time" : {
+    "start" : 1611630672250,
+    "stop" : 1611630721947,
+    "duration" : 49697
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Class",
+    "time" : {
+      "start" : 1611630667473,
+      "stop" : 1611630672249,
+      "duration" : 4776
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Class::0",
+    "time" : {
+      "start" : 1611630780091,
+      "stop" : 1611630780636,
+      "duration" : 545
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Runner"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Class"
+  }, {
+    "name" : "host",
+    "value" : "WIN7-2019040802"
+  }, {
+    "name" : "thread",
+    "value" : "4340-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Runner.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "value_ID",
+    "value" : "'13000000000'"
+  }, {
+    "name" : "value_pwd",
+    "value" : "'8888'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bfae8a641b2ff7ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611630214012,
+        "stop" : 1611630269798,
+        "duration" : 55786
+      }
+    }, {
+      "uid" : "395baf8c2ae8483c",
+      "status" : "broken",
+      "statusDetails" : "ValueError: empty range for randrange() (1,1, 0)",
+      "time" : {
+        "start" : 1611630095233,
+        "stop" : 1611630116134,
+        "duration" : 20901
+      }
+    }, {
+      "uid" : "3d7763efabeccc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611629889551,
+        "stop" : 1611629933270,
+        "duration" : 43719
+      }
+    }, {
+      "uid" : "7d9cdc570ec6a429",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611629587491,
+        "stop" : 1611629632714,
+        "duration" : 45223
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "b8430130c6f67e60",
+        "reportUrl" : "http://192.168.1.83:8080/job/test_lovesgou/5/allure/#testresult/b8430130c6f67e60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611630214012,
+          "stop" : 1611630269798,
+          "duration" : 55786
+        }
+      }, {
+        "uid" : "740ac42fd1eca9dd",
+        "reportUrl" : "http://192.168.1.83:8080/job/test_lovesgou/4/allure/#testresult/740ac42fd1eca9dd",
+        "status" : "broken",
+        "statusDetails" : "ValueError: empty range for randrange() (1,1, 0)",
+        "time" : {
+          "start" : 1611630095233,
+          "stop" : 1611630116134,
+          "duration" : 20901
+        }
+      }, {
+        "uid" : "9b94fa6b85aa2302",
+        "reportUrl" : "http://192.168.1.83:8080/job/test_lovesgou/3/allure/#testresult/9b94fa6b85aa2302",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611629889551,
+          "stop" : 1611629933270,
+          "duration" : 43719
+        }
+      }, {
+        "uid" : "81a3219efc3e95ec",
+        "reportUrl" : "http://192.168.1.83:8080/job/test_lovesgou/2/allure/#testresult/81a3219efc3e95ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611629587491,
+          "stop" : 1611629632714,
+          "duration" : 45223
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7a3c205017b2a19b.json",
+  "parameterValues" : [ "'13000000000'", "'8888'" ]
+}

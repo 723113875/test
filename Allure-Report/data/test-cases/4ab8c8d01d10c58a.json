@@ -1,0 +1,90 @@
+{
+  "uid" : "4ab8c8d01d10c58a",
+  "name" : "test_02_IDLoginFail[13316957722-z723113875]",
+  "fullName" : "Runner.test_case.Test_Class#test_02_IDLoginFail",
+  "historyId" : "0c490d279201a5d5ad1ff41dc251be9f",
+  "time" : {
+    "start" : 1611630270915,
+    "stop" : 1611630272189,
+    "duration" : 1274
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Class",
+    "time" : {
+      "start" : 1611630209477,
+      "stop" : 1611630214011,
+      "duration" : 4534
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Class::0",
+    "time" : {
+      "start" : 1611630346050,
+      "stop" : 1611630346502,
+      "duration" : 452
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Runner"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Class"
+  }, {
+    "name" : "host",
+    "value" : "WIN7-2019040802"
+  }, {
+    "name" : "thread",
+    "value" : "4840-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Runner.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "value_ID",
+    "value" : "'13316957722'"
+  }, {
+    "name" : "value_pwd",
+    "value" : "'z723113875'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4ab8c8d01d10c58a.json",
+  "parameterValues" : [ "'13316957722'", "'z723113875'" ]
+}

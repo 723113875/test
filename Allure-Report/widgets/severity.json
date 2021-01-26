@@ -1,0 +1,141 @@
+[ {
+  "uid" : "96c8854475b822a",
+  "name" : "test_02_IDLoginFail[13316957721-0]",
+  "time" : {
+    "start" : 1611630721952,
+    "stop" : 1611630723125,
+    "duration" : 1173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb7960fd86addb3",
+  "name" : "test_02_IDLoginFail[-z723113875]",
+  "time" : {
+    "start" : 1611630725925,
+    "stop" : 1611630727014,
+    "duration" : 1089
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8593b64a9775ebd6",
+  "name" : "test_03_CodeLoginFail[-]",
+  "time" : {
+    "start" : 1611630734730,
+    "stop" : 1611630735778,
+    "duration" : 1048
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7c315600e183550",
+  "name" : "test_02_IDLoginFail[13316957722-z723113875]",
+  "time" : {
+    "start" : 1611630723130,
+    "stop" : 1611630724504,
+    "duration" : 1374
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc12109dd3720003",
+  "name" : "test_03_CodeLoginFail[13000000000-]",
+  "time" : {
+    "start" : 1611630733668,
+    "stop" : 1611630734726,
+    "duration" : 1058
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "472f455f697fc364",
+  "name" : "test_02_IDLoginFail[13316957722-z7231138755]",
+  "time" : {
+    "start" : 1611630724515,
+    "stop" : 1611630725921,
+    "duration" : 1406
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d96a3b26fe2d1e82",
+  "name" : "test_03_CodeLoginFail[-8888]",
+  "time" : {
+    "start" : 1611630731552,
+    "stop" : 1611630732611,
+    "duration" : 1059
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cf62d0659b5bad7",
+  "name" : "test_02_IDLoginFail[13316957721-1]",
+  "time" : {
+    "start" : 1611630727019,
+    "stop" : 1611630728118,
+    "duration" : 1099
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "931956519f6e331e",
+  "name" : "test_02_IDLoginFail[-]",
+  "time" : {
+    "start" : 1611630728122,
+    "stop" : 1611630729205,
+    "duration" : 1083
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9bd164acca28167",
+  "name" : "test_03_CodeLoginFail[-1234]",
+  "time" : {
+    "start" : 1611630732615,
+    "stop" : 1611630733664,
+    "duration" : 1049
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cc9dfd221c35f8c",
+  "name" : "test_03_CodeLoginFail[13000000000-1234]",
+  "time" : {
+    "start" : 1611630729208,
+    "stop" : 1611630730482,
+    "duration" : 1274
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5ad27ffaf94f93e",
+  "name" : "test_03_CodeLoginFail[/*-+!@#$%^&-1234]",
+  "time" : {
+    "start" : 1611630730485,
+    "stop" : 1611630731548,
+    "duration" : 1063
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c8e4786d2c88d21",
+  "name" : "test_05_IDPayProcess[13316957721-z723113875]",
+  "time" : {
+    "start" : 1611630735782,
+    "stop" : 1611630780089,
+    "duration" : 44307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a3c205017b2a19b",
+  "name" : "test_01_CodePayProcess[13000000000-8888]",
+  "time" : {
+    "start" : 1611630672250,
+    "stop" : 1611630721947,
+    "duration" : 49697
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,92 @@
+{
+  "uid" : "7a3e48466279be37",
+  "name" : "test_03_CodeLoginFail[13000000000-1234]",
+  "fullName" : "Runner.test_case.Test_Class#test_03_CodeLoginFail",
+  "historyId" : "374c50170eb12919878050778dd57065",
+  "time" : {
+    "start" : 1611629639534,
+    "stop" : 1611629640567,
+    "duration" : 1033
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '' == '内部验证码不正确'\n  - 内部验证码不正确",
+  "statusTrace" : "self = <Runner.test_case.Test_Class object at 0x0000000003CB7D68>\nvalue_ID = '13000000000', value_pwd = '1234'\n\n    @pytest.mark.parametrize(\"value_ID, value_pwd\", csvDataCode)\n    def test_03_CodeLoginFail(self, value_ID, value_pwd):\n        self.b.jumopCodeLoginMod()\n        self.b.codeIDLoginMod(value_ID)\n        self.b.codePasswordLoginMod(value_pwd)\n        self.b.codeLoginBtn()\n        #!-----------------------------------------------断言---------------------------------------------! #\n        if len(value_ID) < 11 or str.isdigit(value_ID) is False:\n            assert self.a.findElementText(self.b.xpathPhoneNumFormat) == \"请输入正确的手机号格式\"\n        elif len(value_pwd) != 4 or str.isalnum(value_pwd) is False:\n            assert self.a.findElementText(self.b.xpathCodeFormat) == \"请输入正确的验证码格式\"\n        else:\n>           assert self.a.findElementText(self.b.xpathPopUpTest) ==\"内部验证码不正确\"\nE           AssertionError: assert '' == '内部验证码不正确'\nE             - 内部验证码不正确\n\nRunner\\test_case.py:100: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Class",
+    "time" : {
+      "start" : 1611629584479,
+      "stop" : 1611629587490,
+      "duration" : 3011
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Class::0",
+    "time" : {
+      "start" : 1611629640895,
+      "stop" : 1611629641433,
+      "duration" : 538
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Runner"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Class"
+  }, {
+    "name" : "host",
+    "value" : "WIN7-2019040802"
+  }, {
+    "name" : "thread",
+    "value" : "8760-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Runner.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "value_ID",
+    "value" : "'13000000000'"
+  }, {
+    "name" : "value_pwd",
+    "value" : "'1234'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a3e48466279be37.json",
+  "parameterValues" : [ "'13000000000'", "'1234'" ]
+}
